@@ -9,7 +9,6 @@ VGA(640x480)로 화면을 출력하고, 버튼으로 캐릭터를 움직여 펠�
 
 ```text
 Digital-System-Term-Project
-│
 ├── src
 │   ├── clock_divider.v
 │   ├── move_control.v
