@@ -1,11 +1,12 @@
 # FPGA Pacman-like Game (VGA 640x480)
 
+## 프로젝트 소개
 Verilog로 만든 간단한 Pac-Man 스타일 게임입니다.
 VGA(640x480)로 화면을 출력하고, 버튼으로 캐릭터를 움직여 펠릿을 먹습니다. 적과 충돌하면 게임이 리셋됩니다.
 
----
 
-## 폴더 구조 (Tree)
+
+## 저장소 구조
 
 ```text
 Digital-System-Term-Project
@@ -18,7 +19,7 @@ Digital-System-Term-Project
 └── implementation.mp4
 ```
 
----
+
 
 ## 핵심 기능
 
@@ -30,7 +31,7 @@ Digital-System-Term-Project
   * 외벽에 닿으면 방향 반전
 * **충돌 판정**: 적과 충돌 시 즉시 리셋
 
----
+
 
 ## 파일 설명
 
@@ -46,7 +47,7 @@ Digital-System-Term-Project
   FPGA 보드 핀 매핑(클럭/버튼/VGA/RGB)
     *  Xilinx **XC7A75T-1FGG484I**(Artix-7) 기준으로 작성된 핀 매핑 파일입니다.  
   다른 보드/FPGA를 사용할 경우 클럭, 버튼, VGA(RGB/HS/VS) 핀을 환경에 맞게 수정해야 합니다.
----
+
 
 ## 실행 방법 (Vivado 기준)
 
@@ -55,7 +56,7 @@ Digital-System-Term-Project
 3. Synthesis → Implementation → Bitstream 생성
 4. FPGA에 다운로드 후 VGA 모니터 연결
 
----
+
 
 ## 조작
 
